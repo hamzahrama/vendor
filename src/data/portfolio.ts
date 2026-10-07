@@ -1,0 +1,33 @@
+export const portfolioData = [
+  {
+    id: "boylebyte-site",
+    title: "Boyle Byte — Official Website",
+    category: "Landing Page",
+    description: "Website resmi Boyle Byte: memperkenalkan layanan dev house, portofolio proyek, dan form inquiry langsung via WhatsApp.",
+    image: "/portfolio/boylebyte-site.png",
+    techStack: ["Next.js", "Tailwind", "Vercel"],
+    liveUrl: "https://boyle-byte.vercel.app",
+    concept: false,
+  },
+  {
+    id: "taskify",
+    title: "Taskify — Kanban Task Management",
+    category: "Web App",
+    description: "Aplikasi manajemen tugas berbasis papan Kanban dengan autentikasi JWT, backend API handal, dan antarmuka interaktif responsif.",
+    image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=800&auto=format&fit=crop",
+    techStack: ["Next.js", "NestJS", "Prisma", "PostgreSQL", "Tailwind"],
+    liveUrl: "https://taskify-demo.vercel.app",
+    githubUrl: "https://github.com/boylebyte/taskify",
+    concept: false,
+  },
+  {
+    id: "pos-minimal",
+    title: "POS Minimal — Kasir & Inventaris",
+    category: "POS / ERP",
+    description: "Sistem kasir ringkas untuk UMKM: input produk, stok real-time, laporan penjualan harian, akses HP & desktop.",
+    image: "/portfolio/pos-minimal.png",
+    techStack: ["Next.js", "Prisma", "PostgreSQL"],
+    liveUrl: "",
+    concept: true,
+  },
+];
